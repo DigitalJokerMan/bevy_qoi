@@ -42,6 +42,7 @@ impl AssetLoader for QOIAssetLoader {
     }
 }
 
+/// Plugin that registers the QOIAssetLoader.
 pub struct QOIPlugin;
 
 impl Plugin for QOIPlugin {

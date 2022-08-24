@@ -2,6 +2,12 @@
 name = "bevy_qoi"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Bevy support for the QOI (Quite OK Image) format."
+homepage = "https://github.com/digitaljokerman/bevy_qoi"
+repository = "https://github.com/digitaljokerman/bevy_qoi"
+readme = "README.md"
+exclude = ["assets/*", "examples/*"]
 
 [dependencies]
 bevy = { version = "~0.8", default-features = false, features = [
